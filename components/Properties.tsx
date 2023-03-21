@@ -11,7 +11,7 @@ export default function Properties({}: Props) {
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1.5 }}
       viewport={{ once: true }}
-      className="relative flex flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 justify-center xl:space-y-0 mx-auto items-center bg-amber-100"
+      className="relative flex flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 justify-center xl:space-y-0 mx-auto items-center bg-amber-200"
     >
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         <Ingredient

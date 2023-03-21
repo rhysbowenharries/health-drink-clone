@@ -5,7 +5,7 @@ type Props = {};
 
 export default function Blurb({}: Props) {
   return (
-    <div className="flex flex-col relative text-center md:text-left lg:flex-row max-w-7xl px-20 justify-evenly mx-auto items-center p-20 bg-rose-400">
+    <div className="w-screen flex flex-col relative text-center md:text-left lg:flex-row px-20 justify-evenly mx-auto items-center p-20 bg-rose-400">
       <div className="relative">
         <motion.div
           initial={{
