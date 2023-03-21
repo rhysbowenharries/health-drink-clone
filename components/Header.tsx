@@ -24,7 +24,6 @@ export default function Header({}: Props) {
           transition={{
             duration: 1.5,
           }}
-          className=""
         >
           <div className="flex space-x-8 sm:space-x-8 md:space-x-16 items-center z-20 m-0">
             <Link href="#juice">
@@ -39,10 +38,10 @@ export default function Header({}: Props) {
                 <button>CPJ</button>
               </div>
             </Link>
-            <Link href="#goodStuff">
+            <Link href="#properties">
               <button>Properties</button>
             </Link>
-            <Link href="#nutritionalInfo">
+            <Link href="#nutrition">
               <button>Nutrition</button>
             </Link>
           </div>

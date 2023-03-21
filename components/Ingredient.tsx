@@ -27,7 +27,7 @@ export function Ingredient({
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-        className={`max-h-80 object-cover filter group-hover:grayscale transition duration-300 ease-in-out ${backgroundColor} p-14`}
+        className={` object-cover filter group-hover:grayscale transition duration-300 ease-in-out ${backgroundColor} p-14`}
       >
         <Image
           src={`/ingredients/${imageIndex}.png`}

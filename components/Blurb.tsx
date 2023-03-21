@@ -5,12 +5,7 @@ type Props = {};
 
 export default function Blurb({}: Props) {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      transition={{ duration: 1 }}
-      whileInView={{ opacity: 1.5 }}
-      className="flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-20 justify-evenly mx-auto items-center p-20 bg-rose-400"
-    >
+    <div className="flex flex-col relative text-center md:text-left lg:flex-row max-w-7xl px-20 justify-evenly mx-auto items-center p-20 bg-rose-400">
       <div className="relative">
         <motion.div
           initial={{
@@ -50,6 +45,6 @@ export default function Blurb({}: Props) {
           adipisicing elit. Perferendis voluptatum eos illum voluptatibus
         </p>
       </div>
-    </motion.div>
+    </div>
   );
 }

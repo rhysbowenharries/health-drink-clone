@@ -11,7 +11,7 @@ export default function Properties({}: Props) {
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1.5 }}
       viewport={{ once: true }}
-      className="relative flex flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 justify-center xl:space-y-0 mx-auto items-center"
+      className="relative flex flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 justify-center xl:space-y-0 mx-auto items-center bg-amber-100"
     >
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         <Ingredient
@@ -21,10 +21,10 @@ export default function Properties({}: Props) {
           subHeader="in a beet"
         />
         <Ingredient
-          backgroundColor="bg-amber-100"
+          backgroundColor="bg-amber-200"
           imageIndex="2"
           header="Manage weight"
-          subHeader="with alomnd milk"
+          subHeader="with almond milk"
           directionLeft
         />
         <Ingredient
